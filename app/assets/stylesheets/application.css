@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+
+
+ .form {
+   color: blue;
+   padding: 50px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column; /* Aligns children in a row, but this is the default */
+   background-color: aliceblue;
+   border-radius: 5px;
+   width: 500px;
+   height: 400px;
+   margin: 30px;
+  }
+  #user_input{
+    color: black;
+  }
+
+
+  .answer{
+    color: green;
+    display: flex;
+    justify-content: space-between;
+   flex-direction: column;
+   padding: 50px;
+   background-color: aliceblue;
+   border-radius: 5px;
+   width: 500px;
+   height: 400px;
+   margin: 30px;
+  }
